@@ -1,0 +1,193 @@
+/* A Changer :
+
+ form = icon
+ header =
+
+    /* ==== * MASTER * ====*/
+
+*{
+  font-family: "Trebuchet MS";
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  width: 980px;
+  margin: auto;
+}
+
+    /* ==== header + nav ====*/
+
+h2{
+  font-size: 2.25rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+b{
+  font-size: 1.125rem;
+}
+
+header{
+  text-align: center;
+  width: 100vw;
+  background-image: url("../image/header_img.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  box-shadow: 0px 9px 3px 0px rgba(0,0,0,0.10);
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.flex_nav > a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  width: 200px;
+  text-align: center;
+}
+
+.flex_nav{
+  display: flex;
+  justify-content: center;
+}
+
+.nav_historique{
+  text-decoration: none;
+  border-left: 4px solid black;
+  border-right: 2px solid black;
+}
+
+.nav_map{
+  text-decoration: none;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.nav_contact{
+  text-decoration: none;
+  border-left: 2px solid  black;
+  border-right: 4px solid black;
+}
+
+.nav_historique:hover, .nav_map:hover, .nav_contact:hover{
+  background-color: black;
+  color: white;
+}
+
+    /* ==== Body ====*/
+
+.title_text{
+  margin: 40px 0px 40px 0px;
+}
+
+i{
+  margin-right: 5px;
+}
+
+.title_text > h2{
+  margin-bottom: 20px;
+}
+
+ .img{
+  width: 150px;
+  height: 150px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.image_album_1{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image_album_2{
+  display: flex;
+}
+
+/* ==== Formulaire ====*/
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.img_form{
+  height: 380px;
+  width: 480px;
+  margin-right: 20px;
+}
+
+.text_form{
+  height: 380px;
+  width: 480px;
+  margin-left: 20px;
+}
+
+.case_t1{
+  margin: 10px 0px 10px 0px;
+  height: 40px;
+  width: 480px;
+}
+
+.case_t1{
+  margin: 10px 0px 10px 0px;
+  height: 30px;
+  width: 480px;
+}
+
+.case_t2{
+  margin: 10px 0px 10px 0px;
+  height: 100px;
+  width: 480px;
+}
+
+.case_t1, .case_t2{
+  	border-radius: 12px 0 12px 0;
+  	background: black;
+  	border: none;
+  	color: white;
+  	font: bold 12px Verdana;
+  	padding: 6px 0 6px 0;
+}
+
+.valide{
+  margin: auto;
+	border-radius: 12px 0 12px 0;
+	background: black;
+	border: none;
+	color: white;
+	font: bold 12px Verdana;
+  width: 200px;
+  height: 50px;
+
+}
+
+/* ==== Footer ====*/
+
+footer{
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100vw;
+  margin-left: : 20px;
+  background-color: black;
+}
+
+.footer_icon{
+  display: flex;
+  justify-content: center;
+}
+
+.footer_icon > i{
+ margin-left: 20px;
+ margin-right: 20px;
+ color: white;
+ font-size: 40px
+}
