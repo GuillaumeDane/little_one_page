@@ -113,6 +113,7 @@ i{
 
 /* ==== Formulaire ====*/
 
+
 .form{
   display: flex;
   justify-content: center;
@@ -131,19 +132,17 @@ i{
 }
 
 .case_t1{
-  margin: 10px 0px 10px 0px;
   height: 40px;
   width: 480px;
 }
 
 .case_t1{
-  margin: 10px 0px 10px 0px;
   height: 30px;
   width: 480px;
+  padding-top: 10px;
 }
 
 .case_t2{
-  margin: 10px 0px 10px 0px;
   height: 100px;
   width: 480px;
 }
@@ -155,10 +154,11 @@ i{
   	color: white;
   	font: bold 12px Verdana;
   	padding: 6px 0 6px 0;
+    padding-left: 40px;
 }
 
 .valide{
-  margin: auto;
+  margin-top: 10px;
 	border-radius: 12px 0 12px 0;
 	background: black;
 	border: none;
@@ -166,7 +166,23 @@ i{
 	font: bold 12px Verdana;
   width: 200px;
   height: 50px;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
 
+
+
+.fa-user, .fa-at, .fa-phone{
+  position: relative;
+  left: 20px;
+  top: 30px;
+  color: white;
+}
+
+.fa-comment{
+  position: relative;
+  left: 20px;
+  top: 25px;
+  color: white;
 }
 
 /* ==== Footer ====*/
